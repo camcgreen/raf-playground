@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  /* background: orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+model-viewer {
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  background: lightgrey;
+  padding: 50px 200px;
+}
+
+.Hotspot {
+  cursor: pointer;
+}
