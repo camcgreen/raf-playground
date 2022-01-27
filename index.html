@@ -9,7 +9,7 @@
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
     ></script>
     <script src="./main.js"></script>
-    <title>Model Viewer</title>
+    <title>3D Globe</title>
   </head>
   <body>
     <div class="wrapper">
@@ -31,7 +31,7 @@
           data-normal="0.6592595175080062m 0.7517413028792996m 0.01618339026421587m"
           data-visibility-attribute="visible"
         >
-          <div class="HotspotAnnotation">England</div>
+          <div class="HotspotAnnotation"></div>
         </button>
         <button
           class="Hotspot"
@@ -41,7 +41,7 @@
           data-normal="-0.6184666632339064m -0.44218022314338956m -0.6495965184090661m"
           data-visibility-attribute="visible"
         >
-          <div class="HotspotAnnotation">Australia</div>
+          <div class="HotspotAnnotation"></div>
         </button>
         <button
           class="Hotspot"
@@ -51,12 +51,84 @@
           data-normal="-0.10179003090738913m 0.5554597835445058m 0.8252897784854503m"
           data-visibility-attribute="visible"
         >
-          <div class="HotspotAnnotation">United States</div>
+          <div class="HotspotAnnotation"></div>
         </button>
         <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
         </div>
       </model-viewer>
+      <div class="panel panel--england">
+        <div class="info">
+          <div class="section">
+            <button class="btn-close">Close [x]</button>
+          </div>
+          <div class="section">
+            <div class="title">[OPERATION]</div>
+            <div class="name">Blue Dragon</div>
+          </div>
+          <div class="section">
+            <div class="title">[LOCATION]</div>
+            <div class="name">England</div>
+          </div>
+          <div class="section">
+            <div class="title">[ROLES]</div>
+            <div class="description">
+              Flight Control, Engineer, Cyber Security
+            </div>
+          </div>
+          <div class="section">
+            <button class="btn">LAUNCH OPERATION</button>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel--australia">
+        <div class="info">
+          <div class="section">
+            <button class="btn-close">Close [x]</button>
+          </div>
+          <div class="section">
+            <div class="title">[OPERATION]</div>
+            <div class="name">Lightning Dawn</div>
+          </div>
+          <div class="section">
+            <div class="title">[LOCATION]</div>
+            <div class="name">Australia</div>
+          </div>
+          <div class="section">
+            <div class="title">[ROLES]</div>
+            <div class="description">
+              Flight Control, Engineer, Cyber Security
+            </div>
+          </div>
+          <div class="section">
+            <button class="btn">LAUNCH OPERATION</button>
+          </div>
+        </div>
+      </div>
+      <div class="panel panel--us">
+        <div class="info">
+          <div class="section">
+            <button class="btn-close">Close [x]</button>
+          </div>
+          <div class="section">
+            <div class="title">[OPERATION]</div>
+            <div class="name">Magic Carpet</div>
+          </div>
+          <div class="section">
+            <div class="title">[LOCATION]</div>
+            <div class="name">United States</div>
+          </div>
+          <div class="section">
+            <div class="title">[ROLES]</div>
+            <div class="description">
+              Flight Control, Engineer, Cyber Security
+            </div>
+          </div>
+          <div class="section">
+            <button class="btn">LAUNCH OPERATION</button>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
